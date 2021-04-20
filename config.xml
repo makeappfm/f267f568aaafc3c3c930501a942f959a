@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:cdv   = "http://cordova.apache.org/ns/1.0"
+        id          = "com.belplay.app"
+        android-versionCode = "13"
+        version     = "3.0.0">
+
+    <name>Bel Play</name>
+
+    <description>
+        A BELNET disponibiliza a todos os seus clientes o aplicativo Bel Play VOD. O novo serviço visa proporcionar acesso a conteúdos adultos e infantis, além de milhares de filmes e séries online a qualquer momento e em qualquer lugar. 
+    </description>
+
+    <author>Tadapp</author>
+
+    <plugin name='cordova-plugin-splashscreen' />
+    <plugin name='cordova-plugin-inappbrowser' />
+    <plugin name='cordova-plugin-network-information' />
+
+    <preference name='phonegap-version' value='cli-9.0.0' />
+
+    <preference name='android-build-tool' value='gradle' />
+    <preference name="android-targetSdkVersion" value="29" />
+    <preference name='orientation' value='portrait' />
+
+    <preference name="SplashMaintainAspectRatio" value="false" />
+    <preference name="SplashScreenSpinnerColor" value="#ffffff" />
+
+    <preference name="Fullscreen" value="false" />
+
+
+    <platform name="android">
+        <icon background="res/android/icon/ldpi_1618945321_757c65bc6e882413d1d7.png" density="ldpi" foreground="res/android/icon/ldpi_1618945321_757c65bc6e882413d1d7.png" />
+        <icon background="res/android/icon/mdpi_1618945321_757c65bc6e882413d1d7.png" density="mdpi" foreground="res/android/icon/mdpi_1618945321_757c65bc6e882413d1d7.png" />
+        <icon background="res/android/icon/hdpi_1618945321_757c65bc6e882413d1d7.png" density="hdpi" foreground="res/android/icon/hdpi_1618945321_757c65bc6e882413d1d7.png" />
+        <icon background="res/android/icon/xhdpi_1618945321_757c65bc6e882413d1d7.png" density="xhdpi" foreground="res/android/icon/xhdpi_1618945321_757c65bc6e882413d1d7.png" />
+        <icon background="res/android/icon/xxhdpi_1618945321_757c65bc6e882413d1d7.png" density="xxhdpi" foreground="res/android/icon/xxhdpi_1618945321_757c65bc6e882413d1d7.png" />
+        <icon background="res/android/icon/xxxhdpi_1618945321_757c65bc6e882413d1d7.png" density="xxxhdpi" foreground="res/android/icon/xxxhdpi_1618945321_757c65bc6e882413d1d7.png" />
+
+        <splash src="res/android/screen/hdpi_port_1618945336_74e9ae4adf9efe4a418c.png" density="port-hdpi" />
+        <splash src="res/android/screen/ldpi_port_1618945336_74e9ae4adf9efe4a418c.png" density="port-ldpi" />
+        <splash src="res/android/screen/mdpi_port_1618945336_74e9ae4adf9efe4a418c.png" density="port-mdpi" />
+        <splash src="res/android/screen/xhdpi_port_1618945336_74e9ae4adf9efe4a418c.png" density="port-xhdpi" />
+        <splash src="res/android/screen/hdpi_land_1618945336_74e9ae4adf9efe4a418c.png" density="land-hdpi" />
+        <splash src="res/android/screen/ldpi_land_1618945336_74e9ae4adf9efe4a418c.png" density="land-ldpi"/>
+        <splash src="res/android/screen/mdpi_land_1618945336_74e9ae4adf9efe4a418c.png" density="land-mdpi"/>
+        <splash src="res/android/screen/xhdpi_land_1618945336_74e9ae4adf9efe4a418c.png" density="land-xhdpi"/>
+    </platform>
+
+    <access origin='*'/>
+    <plugin name='cordova-plugin-whitelist' />
+    <allow-intent href='http://*/*'/>
+    <allow-intent href='https://*/*'/>
+    <allow-intent href='tel:*'/>
+    <allow-intent href='sms:*'/>
+    <allow-intent href='mailto:*'/>
+    <allow-intent href='geo:*'/>
+
+</widget>
